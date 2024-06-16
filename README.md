@@ -6,3 +6,12 @@ Self study on nginx ingress controller with Metallb as NLB on bare metal kuberne
 
 ![Screenshot 2024-06-16 at 12 20 21 PM](https://github.com/wbox/ingress/assets/1964035/3a2d74f8-5de5-4027-bb83-ff19014ff15e)
 
+# Artifacts
+- [ArgoCD App manifest](../app]
+
+
+# TODO
+- Use ArgoCD to deploy everything
+- Create a Helm to install the app
+- Install ingress helm chart from my own repo
+- Implement dymainc creation of certificates
