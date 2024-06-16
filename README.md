@@ -12,6 +12,7 @@ Self study on nginx ingress controller with Metallb as NLB on bare metal kuberne
 
 # TODO
 - Use ArgoCD to deploy everything
+- Add this readme as the page for the app
 - Create a Helm to install the app
 - Install ingress helm chart from my own repo
 - Implement dymainc creation of certificates
