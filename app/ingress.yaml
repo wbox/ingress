@@ -16,13 +16,6 @@ spec:
           service:
             name: nginx-svc
             port:
-              name: http
-      - pathType: Prefix
-        path: "/argocd"
-        backend:
-          service:
-            name: argocd-server
-            port:
-              name: https              
+              name: http            
 status:
   loadBalancer: {}
