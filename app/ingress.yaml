@@ -1,0 +1,21 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-global
+  namespace: ingress
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: nginx.ribas.ca
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/argocd"
+        backend:
+          service:
+            name: argocd-server
+            port:
+              name: https
+status:
+  loadBalancer: {}
