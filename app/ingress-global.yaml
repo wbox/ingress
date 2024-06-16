@@ -13,11 +13,12 @@ spec:
   - host: *.ribas.ca
     http:
       paths:
-      - pathType: Prefix
-        path: "/argocd"
-        backend:
+      - backend:
           service:
             name: argocd-server
-            port: 80
+            port:
+              name: https
+        path: /
+        pathType: Prefix
 status:
   loadBalancer: {}
