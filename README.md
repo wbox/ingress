@@ -4,7 +4,7 @@
 
 Self study on nginx ingress controller with Metallb as NLB on bare metal kubernetes in my home lab.
 
-![Screenshot 2024-06-16 at 12 20 21 PM](https://github.com/wbox/ingress/assets/1964035/3a2d74f8-5de5-4027-bb83-ff19014ff15e)
+![Screenshot 2024-06-16 at 12 28 55 PM](https://github.com/wbox/ingress/assets/1964035/60ab11e5-d6f3-4db5-8d95-d2fe5f63327b)
 
 # Artifacts
 - [ArgoCD App manifest](https://github.com/wbox/ingress/blob/main/argocd/ingress-app.yaml)
