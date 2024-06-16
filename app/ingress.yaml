@@ -11,11 +11,11 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: "/argocd"
+        path: "/"
         backend:
           service:
-            name: argocd-server
+            name: nginx-svc
             port:
-              name: https
+              name: http
 status:
   loadBalancer: {}
