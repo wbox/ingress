@@ -16,3 +16,11 @@ Self study on nginx ingress controller with Metallb as NLB on bare metal kuberne
 - Create a Helm to install the app
 - Install ingress helm chart from my own repo
 - Implement dymainc creation of certificates
+
+# Stack
+- [Kubernetes](https://kubernetes.io)
+- [MetalLB](https://metallb.universe.tf)
+- [NGINX](https://nginx.org/en/)
+- [NGINX Ingress Controller](https://docs.nginx.com/nginx-ingress-controller/)
+- [Kubernetes Ingress-Nginx Controller](https://kubernetes.github.io/ingress-nginx/)
+- [ArgoCD](https://argo-cd.readthedocs.io/en/stable/)
