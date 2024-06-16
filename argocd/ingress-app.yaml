@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/wbox/ingress.git
     targetRevision: HEAD
-    path: my-app
+    path: ingress
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
