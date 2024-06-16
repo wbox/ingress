@@ -8,7 +8,7 @@ Self study on nginx ingress controller with Metallb as NLB on bare metal kuberne
 
 # Artifacts
 - [ArgoCD App manifest](https://github.com/wbox/ingress/blob/main/argocd/ingress-app.yaml)
-
+- [App Kubernetes Manifests]()
 
 # TODO
 - Use ArgoCD to deploy everything
