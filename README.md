@@ -26,4 +26,3 @@ Self study on nginx ingress controller with Metallb as NLB on bare metal kuberne
 - [Kubernetes Ingress-Nginx Controller](https://kubernetes.github.io/ingress-nginx/)
 - [ArgoCD](https://argo-cd.readthedocs.io/en/stable/)
 - [Helm](https://argo-cd.readthedocs.io/en/stable/)
-- 
